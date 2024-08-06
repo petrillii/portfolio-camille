@@ -99,6 +99,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://petrillii.github.io/portfolio-camille/"
+          }
         }
       }
     }
